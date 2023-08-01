@@ -1,0 +1,26 @@
+<!-- 3. Write a program to accept a string and count the number of the Vowels present in the string. 
+ Output: shib shankar. The number of vowels=3  
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+	
+	<script>
+		var s=prompt("Enter a String value :");
+		var c=0;
+		for(var i=0; i<s.length; i++)
+		{
+			var x=s.charAt(i).toUpperCase();
+			if(x=='A' || x=='E' || x=='I' || x=='O' || x=='U')
+				c++;			
+		}
+		document.write("String : "+s);
+		document.write("<br>The number of vowels= "+c);
+		
+		
+	</script>
+</body>
+</html>
